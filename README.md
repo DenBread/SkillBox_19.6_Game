@@ -7,7 +7,7 @@
 
 <p align="center">
    <img src="https://img.shields.io/badge/Engine-2021.3.4f1-green" alt="Unity Version">
-   <img src="" alt="Game Version">
+   <img src="https://img.shields.io/badge/Version-v1.0%20(Alpha)-yellowgreen" alt="Game Version">
    <img src="" alt="License">
 </p>
 
