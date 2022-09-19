@@ -2,7 +2,7 @@
 
 
 <p align="center">
-      <img src="[Project Logo Url](https://img.itch.zone/aW1nLzI1Mzc4MzcuZ2lm/original/OArrbk.gif)" width="726">
+      <img src="https://img.itch.zone/aW1nLzI1Mzc4MzcuZ2lm/original/OArrbk.gif" width="726">
 </p>
 
 <p align="center">
