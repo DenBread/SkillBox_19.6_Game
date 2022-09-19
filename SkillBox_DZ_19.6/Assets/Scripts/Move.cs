@@ -13,10 +13,14 @@ public class Move : MonoBehaviour
     public static Func<bool> OnJump;
     public static Action<float> OnMove;
 
+    private Vector2 _movementVec;
+
+    [Header("Настройка игрока")]
+    [Space]
     [SerializeField] private float _speedMove;
     [SerializeField] private float _powerJump;
 
-    [SerializeField] private Vector2 _movementVec;
+    [Header ("Animatimator")]
     [SerializeField] private StateAnimation _stateAnimation;
 
     private void OnEnable()
@@ -44,9 +48,10 @@ public class Move : MonoBehaviour
     private void FixedUpdate()
     {
         _movementVec.x = controller.Main.Move.ReadValue<float>();
+
         _stateAnimation.StateMove(_movementVec.x);
         _stateAnimation.StateJumpFall(_rb.velocity.y);
-        Debug.Log(_rb.velocity.y);
+
         Movement();
         Flip();
     }
@@ -60,7 +65,7 @@ public class Move : MonoBehaviour
 
     private void Jumping()
     {
-        var b = OnJump?.Invoke();
+        var b = OnJump?.Invoke(); // проверка на косание земли
         if (b.Value == true)
         {
             _rb.AddForce(Vector2.up * _powerJump, ForceMode2D.Impulse);

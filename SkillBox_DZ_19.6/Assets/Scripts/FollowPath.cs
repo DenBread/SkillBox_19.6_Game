@@ -53,7 +53,7 @@ public class FollowPath : MonoBehaviour
         }
         else if(Type == MovementType.Lerping)
         {
-            _rb.position = Vector3.Lerp(transform.position, pointInPath.Current.position, Time.deltaTime * speed);
+            transform.position = Vector3.Lerp(transform.position, pointInPath.Current.position, Time.deltaTime * speed);
         }
 
         var distanceSqure = (transform.position - pointInPath.Current.position).sqrMagnitude;
