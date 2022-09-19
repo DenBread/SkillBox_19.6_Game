@@ -26,3 +26,4 @@ This project contains all the graphic images that are presented in the Demo vers
 - [Den Zlobin](https://github.com/DenBread)
 
 ## License
+Project SkillBox_19.6_Game is distributed under the MIT licence.
