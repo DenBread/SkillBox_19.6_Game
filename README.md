@@ -23,6 +23,6 @@ This project contains all the graphic images that are presented in the Demo vers
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
+- [Den Zlobin](https://github.com/DenBread)
 
 ## License
