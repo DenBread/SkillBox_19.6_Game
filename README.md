@@ -13,15 +13,12 @@
 
 ## About
 
-About Text Here
+This project contains all the graphic images that are presented in the Demo version above (characters, objects, tilesets, items, etc)
 
-## Documentation
-
-Documentation Here
 
 ## Distribute
 
-- [Service Name](Page Link)
+- [Pixel Adventure](https://pixelfrog-assets.itch.io/pixel-adventure-1)
 
 
 ## Developers
